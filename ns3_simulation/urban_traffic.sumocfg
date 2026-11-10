@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <input>
+        <net-file value="urban_road_network.net.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="180"/>
+        <step-length value="1.0"/>
+    </time>
+    <output>
+        <fcd-output value="urban_vehicles_trace.xml"/>
+    </output>
+</configuration>
